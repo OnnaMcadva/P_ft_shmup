@@ -23,7 +23,7 @@ You will create a small game using the ncurses library.
 #### Класс `Bullet`:
 - `Bullet(int x_, int y_, bool player_bullet)` — конструктор.
 - `update(int input)` — обновляет позицию пули.
-- `is_from_player() const` — возвращает, является ли пуля игроковой.
+- `is_from_player() const` — возвращает, является ли пулей игрока.
 
 #### Класс `Enemy`:
 - `Enemy(int x_, int y_, bool scripted)` — конструктор.
