@@ -46,6 +46,7 @@ all: $(NAME)
 	@printf $(BOLD)$(YELLOW)"	space (pew pew)\n"
 	@printf $(BOLD)$(CYAN)"	BB\n"
 	@printf $(BOLD)$(CYAN)"	BB (Big Boss)\n"
+	@printf $(BOLD)$(YELLOW)"	q (quit)\n"
 
 $(NAME): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $(NAME) $(OBJS) $(LDFLAGS)
